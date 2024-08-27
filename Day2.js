@@ -42,3 +42,8 @@ console.log(x||y); // or
 
 console.log(x);
 console.log(!x) // not
+
+
+let num1=10;
+let check = (num1<0) ? "Negative":"Positive" ;
+console.log(check)
