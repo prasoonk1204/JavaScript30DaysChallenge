@@ -33,3 +33,12 @@ console.log(`a3:${a3}, type:${typeof a3}`);
 console.log(`output of a1==a3:${a1==a3}`)
 console.log(`output of a1===a3:${a1===a3}`)
 
+
+let x=0, y=1; z=1; // 0-> false 1-> true 
+console.log(x&&y); // and
+console.log(y&&z);
+
+console.log(x||y); // or
+
+console.log(x);
+console.log(!x) // not
