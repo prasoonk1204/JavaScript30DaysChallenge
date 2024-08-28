@@ -82,8 +82,24 @@ greet(name, age)
 // task 9
 const multifun = (func, num) => {
   for (let index=1; index<=num; index++) {
-    console.log(func("pk", 12))
+    func("pk", 12)
   }
 }
 
 multifun(greet, 4)
+
+
+// task 10
+const f1 = (a1= 10) => {
+  return a1*a1
+}
+const f2 = (a2) => {
+  return a2/2
+}
+
+const f3 = (f1,f2,num) => {
+  const res = f1(num);
+  console.log(f2(res))
+}
+
+f3(f1,f2,10)
